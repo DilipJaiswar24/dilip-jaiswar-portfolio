@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Dilip Portfolio </title>
+	<!-- cdn link  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- google-font -->
+	<link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+
+	<!-- Material Icons Outlined -->
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+	<!-- font awesome icons -->
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		integrity="sha512-pY1f5ljm+o5r9mnDpN+UxhJmNgmUHX2wq6HqLPF+j7gU8cZpzq/IdVxUZq+kWqP8ZOLiEFEMgxH4zBr3lBy4Ow=="
+		crossorigin="anonymous" refferrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="MyPortfolio.css">
+</head>
+
+<body>
+	<!-- Navbar  -->
+	<nav>
+		<div class="logo"><a href="images/dilip-logo.jpg" target="_blank"><img src="images/dilip-logo.jpg" alt=""
+					width="60" height="60" style="border-radius: 50%;"></a>
+			<span>Dilip Jaiswar</span>
+		</div>
+		<ul>
+			<li><a href="#Home"> Home </a></li>
+			<li><a href="#About"> About </a></li>
+			<li><a href="#Skills"> Skills </a></li>
+			<li><a href="#Experience"> Experience </a></li>
+			<li><a href="#Portfolio"> Portfolio </a></li>
+			<li><a href="#Contact"> Contact </a></li>
+
+		</ul>
+		<button class="toggleMenu"><i class="fa-solid fa-bars navIcon"></i></button>
+	</nav>
+	<!-- Home  -->
+	<section class="main" id="Home">
+
+		<div class="slider-container">
+			<div class="slides" id="slides">
+				<div class="slide">
+					<img src="Images/banner1.png" alt="Slide 1" />
+					<div class="content">
+						<h1> I'm Dilip Jaiswar </h1>
+						<h3> Web Developer </h3>
+						<button onclick="about()"> About Me </button>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="Images/banner2.png" alt="Slide 1" />
+					<div class="content">
+						<h1> I'm Dilip Jaiswar </h1>
+						<h3> Wordpress Developer </h3>
+						<button onclick="about()"> About Me </button>
+					</div>
+				</div>
+				<div class="slide">
+					<img src="Images/banner3.png" alt="Slide 1" />
+					<div class="content">
+						<h1> I'm Dilip Jaiswar </h1>
+						<h3> SEO Developer </h3>
+						<button onclick="about()"> About Me </button>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<!-- About  -->
+
+	<section class="about" id="About">
+		<h1> About </h1>
+		<hr>
+		<div class="about-container">
+			<div class="profile">
+				<img src="Images/myProfile.png">
+				<div class="social-icons">
+					<a href="https://www.facebook.com/DilipJaiswar24" target="_blank"><i
+							class="fa-brands fa-facebook"></i></a>
+					<a href="https://www.linkedin.com/in/dilip-jaiswar/" target="_blank"><i
+							class="fa-brands fa-linkedin"></i></a>
+					<a href="https://github.com/DilipJaiswar24" target="_blank"><i class="fa-brands fa-github"></i></a>
+					<!-- <a href="https://www.instagram.com/dilip.j_24/" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
+				</div>
+			</div>
+
+			<div class="about-content">
+				<h1> I am Web Developer </h1>
+				<p>I am a Web Developer with hands-on experience in building responsive and user-friendly web
+					applications. I have strong skills in HTML, CSS, JavaScript, React.js, Java, WordPress, MySQL, and
+					On-Page SEO. I have 6 months of professional experience working with WordPress and SEO at NS Media,
+					where I contributed to website development and search engine optimization. Additionally, I completed
+					a 3-month internship in React.js at Ethereum Infotech LLP, gaining practical experience in modern
+					frontend development and component-based architecture. I am passionate about learning new
+					technologies and building efficient web solutions. </p>
+
+				<div class="btn-container">
+					<a href="#Portfolio"><button class="btn1"> My Project </button></a>
+					<a href="images/dilip-jaiswar-resume.pdf" download="Dilip_Jaiswar_Resume" >
+<button class="btn2"> Download CV </button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- skill  -->
+	<section class="skill" id="Skills">
+		<h2> Skills </h2>
+		<hr>
+		<div class="skill-container">
+			<div class="skill-box html"><i class="fa-brands fa-html5"></i>
+				<p>HTML</p>
+			</div>
+			<div class="skill-box css"><i class="fa-brands fa-css"></i>
+				<p>CSS</p>
+			</div>
+			<div class="skill-box js"><i class="fa-brands fa-js"></i>
+				<p>JavaScript</p>
+			</div>
+			<div class="skill-box react"><i class="fa-brands fa-react"></i>
+				<p>React js</p>
+			</div>
+			<div class="skill-box java"><i class="fa-brands fa-java"></i>
+				<p>JAVA</p>
+			</div>
+			<div class="skill-box database"><i class="fa-solid fa-database"></i>
+				<p>My SQL</p>
+			</div>
+			<div class="skill-box wordpress"><i class="fa-brands fa-wordpress"></i>
+				<p>Wordpress</p>
+			</div>
+			<div class="skill-box seo"><i class="fa-solid fa-magnifying-glass"></i>
+				<p>Search Engine Optimization</p>
+			</div>
+
+		</div>
+	</section>
+	<!-- Work Experience  -->
+	<section class="experience" id="Experience">
+		<h1> Experience </h1>
+		<hr>
+		<div class="experience-container">
+			<div class="experience-box">
+				<h1>React.js Experience</h1>
+				<p>Completed a 3-month internship at Ethereum Infotech LLP, where I worked on developing dynamic user
+					interfaces using React.js, JavaScript, and modern frontend practices.</p>
+			</div>
+			<div class="experience-box">
+				<h1>WordPress & SEO Experience</h1>
+				<p>Gained 6 months of professional experience at NS Media, working on WordPress website development and
+					implementing on-page SEO strategies to improve website ranking and performance.</p>
+			</div>
+			<div class="experience-box">
+				<h1>Technical Skills</h1>
+				<p>Proficient in HTML, CSS, JavaScript, React.js, Java, WordPress, MySQL, and On-Page SEO, with a strong
+					foundation in frontend development and database management.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Portfolio  -->
+	<section class="portfolio" id="Portfolio">
+		<h1> Portfolio </h1>
+		<hr>
+		<div class="portfolio-container">
+			<div class="portfolio-box">
+				<a href="https://dilip-jaiswar-portfolio.netlify.app/" target="_blank">
+					<img src="images/personal-portfolio-website.png" alt="">
+				</a>
+				<div class="portfolio-content">
+					<h2> Personal Portfolio </h2>
+					<!-- <p> para </p> -->
+					<a href="https://dilip-jaiswar-portfolio.netlify.app/" target="_blank"><button> View </button></a>
+				</div>
+			</div>
+			<div class="portfolio-box">
+				<a href="https://agency-portfolio-24.netlify.app/" target="_blank">
+					<img src="images/agency-portfolio.png" alt="">
+				</a>
+				<div class="portfolio-content">
+					<h2> Agency Portfolio </h2>
+					<!-- <p> para </p> -->
+					<a href="https://agency-portfolio-24.netlify.app/" target="_blank"><button> View </button></a>
+				</div>
+			</div>
+			<div class="portfolio-box">
+				<a href="http://beautylife.gt.tc/" target="_blank">
+					<img src="images/beautylife.png" alt="">
+				</a>
+				<div class="portfolio-content">
+					<h2> Beauty Life </h2>
+					<!-- <p> para </p> -->
+					<a href="http://beautylife.gt.tc/" target="_blank"><button> View </button></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact -->
+	<section class="contact" id="Contact">
+		<h1> Contact Us</h1>
+		<hr>
+		<div class="contact-info">
+			<div class="contact-info-box"> <i class="fa-solid fa-location-dot"></i> <span>Samta Nagar, Maurya Naka, Sativali,
+					Vasai Road (East)</span> </div>
+			<a href="tel:+91 84212 41914">
+				<div class="contact-info-box"> <i class="fa-solid fa-phone"></i> <span>8421241914</span> </div>
+			</a>
+			<a href="maitto:dilipjaiswar2424@gmail.com">
+				<div class="contact-info-box"> <i class="fa-solid fa-envelope"></i> <span>dilipjaiswar2424@gmail.com</span>
+				</div>
+			</a>
+		</div>
+
+		<div class="contact-form">
+			
+			<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1271.5230229226217!2d72.87278977249099!3d19.408872252635575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a9006dde2869%3A0x3222d65117e7ea9c!2sSamta%20nagar%20opposite%2C%20bhagte%20pada%2Cmoryanaka%2Csativali%20vasai%20East!5e1!3m2!1sen!2sin!4v1766314188866!5m2!1sen!2sin"
+					style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+			<form action="https://formspree.io/f/xlgrabqz" method="POST">
+				<h2> Contact Form </h2>
+				<div>
+					<label for="name"> Name : </label>
+					<input type="text" id="name" name="name" required>
+				</div>
+				<div>
+					<label for="email"> Email Id : </label>
+					<input type="email" id="email" name="email" required>
+				</div>
+				<div>
+					<label for="phone"> Phone No : </label>
+					<input type="number" id="phone" name="phone" required>
+				</div>
+				<div>
+					<label for="message"> Message : </label>
+					<textarea name="message" id="message"></textarea>
+				</div>
+				<div>
+					<input type="submit" value=" Send Message">
+				</div>
+			</form>
+		</div>
+	</section>
+	<!-- Footer  -->
+	<footer>
+		<div class="links">
+			<div class="footer-logo">
+				<img src="images/dilip-logo.jpg" alt="" style="border: 1px solid black; border-radius: 50%;">
+				<h1>Dilip Jaiswar</h1>
+			</div>
+			<div>
+				<h2> Quick Links </h2>
+				<ul>
+					<li><a href="#Home"> Home </a></li>
+					<li><a href="#About"> About </a></li>
+					<li><a href="#Skills"> Skills </a></li>
+					<li><a href="#Experience"> Experience </a></li>
+					<li><a href="#Portfolio"> Portfolio </a></li>
+					<li><a href="#Contact"> Contact </a></li>
+
+				</ul>
+			</div>
+			<div>
+				<h2> Contact Us </h2>
+				<ul>
+					<li> <i class="fa-solid fa-phone"></i><a href="tel: +91 8421241914"> +91 8421241914 </a></li>
+					<li><i class="fa-solid fa-envelope"></i> <a href="mailto:dilipjaiswar2424@gmail.com"> dilipjaiswar2424@gmail.com </a></li>
+					<li><i class="fa-solid fa-location-dot"></i> <a> Samta Nagar, Maurya Naka, Sativali, Vasai Road (East) </a></li>
+				</ul>
+			</div>
+			<div>
+				<h2> Social Links </h2>
+				<ul>
+					<li><i class="fa-brands fa-facebook"></i> <a href="https://www.facebook.com/DilipJaiswar24" target="_blank"> Facebook </a></li>
+					<!-- <li><i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/dilip.j_24/" target="_blank"> Instagram </a></li> -->
+					<li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/dilip-jaiswar/" target="_blank"> Linkedin </a></li>
+					<li><i class="fa-brands fa-github"></i> <a href="https://github.com/DilipJaiswar24" target="_blank"> Github </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="copyright">
+			<p> &copy; 2025 Dilip Jaiswar. All Rights Reserved. </p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="myportfolio.js">
+	</script>
+</body>
+
+</html>
